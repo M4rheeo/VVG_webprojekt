@@ -20,6 +20,77 @@ figcaption {
 	height: 500px;
 	width: 100%;
 }
+@media (max-width:768px) {
+	.hero-image {
+		width: 100%;
+	}
+	.figure {
+		width: 100%;
+	}
+	.header {
+		padding-bottom: 10px;
+	}
+	.news img {
+		display: none;
+	}
+	.video {
+		width: 100%;
+		float: center;
+	}
+	.container {
+	width: 30%;
+	}
+	.container .box .imgBox {
+		width: 100%;
+	}
+	.container .box .imgBox img {
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-width: 600px) {
+	.hero-image {
+		width: 600px;
+	}
+	figure {
+		display: none;
+	}
+	.header {
+		padding-bottom: 10px;
+	}
+	video {
+		width: 590px;
+		padding-right: 20px;
+	}
+	.text1,
+	.text2 {
+		width: 90%;
+		padding-left: 11px;
+		padding-right: 11px;
+	}
+	.text3,
+	.text4 {
+		width: 90%;
+		text-align: center;
+		padding-left: 20px;
+		}
+	h1, h2 {
+		text-align: center;
+	}
+	.container {
+		width: 100%;
+		height: auto;
+	}
+	.container .box .imgBox {
+		width: 100%;
+		height: auto;
+	}
+	.container .box .imgBox img {
+		width: 100%;
+		height: auto;
+	}
+
+}
 .text1 {
 	position: center;
 	top: 5%;
